@@ -1,0 +1,225 @@
+
+@font-face {
+    font-family: 'Myfont';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+class.marcado{
+    font-weight: bolder
+}
+body {
+    background-color: rgb(231, 231, 208);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+
+
+/*===================  header ===========================*/
+header{
+    background-image: linear-gradient(to bottom,rgb(100, 148, 100), darkgreen);
+    width: 100%;
+    padding: 5px 0;
+}
+header > h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+/*===================================================*/
+
+/*==================== nav ==========================*/
+nav > a  {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition-duration: 0.3s;
+    border: 3px;
+}
+
+nav > a:hover  {
+    background-color: rgb(64, 131, 64);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+/*====================================================*/
+
+/*=================== main ===========================*/
+main {
+    padding: 10px;
+    background-color: white;
+    border: 100px solid rgb(231, 231, 208) ;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+main > p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+}
+
+main strong{
+    color: darkgreen;
+    font-weight: bolder;
+}
+/*===================================================*/
+
+/*================= FAMÍLIA H =======================*/
+
+*h1,h2,h3 {
+    border-radius: 2px;
+}
+
+H2{
+    color: darkgreen;
+    font-family: 'Myfont', sans-serif;
+    padding: 3px';
+
+}
+
+H3{
+    color: darkgreen;
+    font-family: 'Myfont', sans-serif;
+    background-image: linear-gradient(to right, rgb(115, 209, 115), transparent);
+    padding: 3px;
+}
+
+/*===================================================*/
+
+section > p{
+    text-align: justify;
+
+}
+
+p > a{
+    text-decoration: underline;
+    color: darkgreen;
+    background-image: rgba(115, 209, 115, 0.349);
+    font-weight: bolder;
+}
+
+p > a::after {
+    content: "🔗";
+    font-size: 0.8em;
+}
+
+p > a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(172, 238, 159);
+    padding: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/*====================== IMG ========================*/
+img.grande {
+   display: block;
+   margin: 0 auto;
+   width: 80%;
+   height: auto;
+}
+
+img.pequena {
+  display: block; 
+  margin: auto; 
+  max-width: 350px;
+}
+
+/*================== CABEÇALHO =========================*/
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > p {
+    margin: 0;
+    font-size: 0.5em;
+}
+
+footer a:hover{
+text-decoration: underline;
+color: darkgreen;
+
+}
+
+/*=================== ASIDE ==========================*/
+
+aside > ul {
+    background-color: beige;
+    border: 2px solid darkgreen;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    columns: 2;
+}
+ 
+aside > ul > li:hover {
+    color: darkgreen;
+    padding: 7px;
+    transition-duration: 0.6s;
+}
+
+aside > p {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    text-indent: 30px;
+}
+
+aside > li > a {
+    color: darkgreen;
+    font-weight: bold;
+
+}
+
+aside > li > a::after {
+    content: "🔗";
+    font-size: 0.8em;
+}
+
+aside > h3 {
+    color: darkgreen;
+    font-family: 'Myfont', sans-serif;
+    text-align: center;
+    padding: 3px;
+}
+
+/*================== VIDEO CONFIG =================================*/
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 500px;
+    border: 1px solid darkgreen;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+div.video{
+    background-color: rgb(64, 131, 64);
+}
