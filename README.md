@@ -15,4 +15,5 @@ Este site foi desenvolvido como um exercício prático focado nos alicerces do d
 * **CSS Puro (Vanilla):** Controle completo sobre o design, manipulação de cores, tipografia, espaçamentos e alinhamentos sem atalhos de ferramentas de terceiros.
 
 ## 📷 Demonstração do Layout
-> *Dica: Substitua este bloco por uma captura de tela (screenshot) ou um GIF do seu site funcionando. Mostre uma imagem da versão desktop e outra da versão mobile para provar a responsividade!*
+> ![alt text](image.png)
+![alt text](image-1.png)
