@@ -17,3 +17,4 @@ Este site foi desenvolvido como um exercício prático focado nos alicerces do d
 ## 📷 Demonstração do Layout
 > ![alt text](image.png)
 ![alt text](image-1.png)
+![alt text](image-2.png)
